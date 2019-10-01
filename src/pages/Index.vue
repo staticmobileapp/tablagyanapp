@@ -1,8 +1,8 @@
 <template>
-  <q-page padding>
-    <img alt="Quasar logo" class="logo-center" src="~assets/tg.png">
-     <ul>
-      <li v-for="(video, index) in videolist">{{video.title}}</li>
+  <q-page padding id="app">
+    <ListingContent />
+    <ul>
+      <li v-for="(video,index) in videolist" :key="index">{{video.title}}</li>
     </ul>
   </q-page>
 </template>
@@ -12,11 +12,22 @@
 width: 10%;
 height: 10%;
 }
+#app {
+  background-image: linear-gradient(to bottom, #5939b0, #5335a5, #4d319a, #482d8f, #422984, #3b2579, #35226e, #2f1e63, #271a55, #201548, #19113b, #140a2e);
+  min-height: 500px;
+  color: #ffffff;
+}
+
 </style>
 
 <script>
+import ListingContent from '../components/ListingContent.vue';
+
 export default {
   name: 'PageIndex',
+  components: {
+       ListingContent
+    },
   data() {
     return {
       videolist: [

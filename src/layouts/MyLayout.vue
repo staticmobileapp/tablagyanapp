@@ -16,7 +16,6 @@
           TablaGyan
         </q-toolbar-title>
 
-        <div>TablaGyan v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 

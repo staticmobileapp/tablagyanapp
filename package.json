@@ -12,12 +12,15 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
+    "bootstrap-vue": "^2.0.2",
     "quasar": "^1.0.0",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
-    "@quasar/quasar-app-extension-icon-genie": "^1.0.1"
+    "@quasar/quasar-app-extension-icon-genie": "^1.0.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
   },
   "engines": {
     "node": ">= 8.9.0",
