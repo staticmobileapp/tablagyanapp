@@ -1,6 +1,7 @@
 <template>
   <q-page padding>
     <ul>
+      <li v-for="video in videolist">{{video.title}}</li>
       <li v-for="(index,video) in videolist" :key="index">{{video.title}}</li>
     </ul>
   </q-page>

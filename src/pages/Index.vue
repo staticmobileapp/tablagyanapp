@@ -1,4 +1,8 @@
 <template>
+  <q-page padding>
+    <img alt="Quasar logo" class="logo-center" src="~assets/tg.png">
+     <ul>
+      <li v-for="(video, index) in videolist">{{video.title}}</li>
   <q-page padding id="app">
     <ListingContent />
     <ul>
