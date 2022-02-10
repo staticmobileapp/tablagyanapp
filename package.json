@@ -19,7 +19,7 @@
   "devDependencies": {
     "@quasar/app": "^1.0.0",
     "@quasar/quasar-app-extension-icon-genie": "^1.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.0"
   },
   "engines": {
